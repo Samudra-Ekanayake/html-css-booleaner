@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 p {
     margin: 0;
 }
@@ -5,20 +10,75 @@ h1{
     margin: 0;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 .nav {
+    padding: 0;
     margin: 0;
-    background-color: aqua;
+    color: whitesmoke;
+    background-color: lightseagreen;
     height: 55px;
     width: 100%;
     background-image: url(img/pattern.png);
-    background-size: cover;
+    background-size: contain;
     text-align: justify left;
 }
+
+.titolo {
+    margin-top: 20px;
+}
+
+.scrittore {
+    margin-bottom: 10px;
+}
+
+.Booleaner {
+    color: blue; 
+}
+
+.testofoto {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.sfondogiallo {
+    background-color: yellow;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 800px;
+}
+
+th {
+    color: white;
+    text-align: left;
+}
+
+
+
+.blu {
+    background-color: blue;
+}
+
+.rigaazzurra {
+    background-color: lightskyblue;
+}
+
+.pfinale {
+    margin-top: 20px;
+}
+
+.greytitle {
+    color: gray;
+    margin-top: 10px;
+}
+
+.container {
+    display: block;
+}
+
 
 
 
